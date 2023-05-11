@@ -6,22 +6,10 @@ import Api from '../providers/http/api'
 import GroupModel from '../models/GroupModel'
 
 
-const getData = cache(async (a:any) => { 
-  console.log(a)
-  // return Api.get('/api/group', {id: a})
-});
-
-export default function Page() {
+export default function Login() {
 
 
-  const group = use(getData('1'))
 
-  console.log(group)
-
-  useEffect(()=>{
-
-
-  },[])
 
 
   return (

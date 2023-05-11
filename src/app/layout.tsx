@@ -18,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </Head>
       <body className="bg-white w-screen h-screen">
         {children}
+        <div id="portal"></div>
       </body>
     </html>
   );
