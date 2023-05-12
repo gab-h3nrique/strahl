@@ -12,7 +12,7 @@ export default function Page() {
 
     <>
       <div className="font-extrabold text-3xl">Next-generation Node.js and TypeScript ORM aa</div>
-      <button onClick={()=> setOpenModal(!openModal)} className='bg-blue-500 p-4 rounded-lg'>Click</button>
+      <button onClick={()=> setOpenModal(!openModal)} className='bg-blue-100 p-4 rounded-lg'>Click</button>
       <LoginModal isOpen={openModal} onClose={()=>setOpenModal(false)}/>
     </>
 
